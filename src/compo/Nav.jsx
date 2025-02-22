@@ -1,11 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <div className="navbar bg-base-100">
       {/* Nav Start */}
       <div className="navbar-start">
-        
         {/* Dropdown Manu */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,48 +24,71 @@ const Nav = () => {
               />
             </svg>
           </div>
+          {/* Manue */}
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <NavLink to={"/"}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <a>All Books</a>
+              <NavLink to={"/all_books"}>
+                All Books
+              </NavLink>
             </li>
             <li>
-              <a>Add Books</a>
+              <NavLink to={"/add_books"}>
+                Add Books
+              </NavLink>
             </li>
             <li>
-              <a>Borrow Books</a>
+              <NavLink to={"/borrowed_books"}>
+                Borrow Books
+              </NavLink>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Library Assistant</a>
+        <p
+          className="text-lg 
+         flex items-center font-bold italic w-fit mx-auto mb-2"
+        >
+          <span className="text-3xl">Libra Assistance</span>
+        </p>
       </div>
 
       {/* Nav Center */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <NavLink to={"/"}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <a>All Books</a>
+            <NavLink to={"/all_books"}>
+              All Books
+            </NavLink>
           </li>
           <li>
-            <a>Add Books</a>
+            <NavLink to={"/add_books"}>
+              Add Books
+            </NavLink>
           </li>
           <li>
-            <a>Borrow Books</a>
+            <NavLink to={"/borrowed_books"}>
+              Borrow Books
+            </NavLink>
           </li>
         </ul>
       </div>
 
       {/* Nav End */}
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end flex gap-1">
+        <a className="btn">Log in</a>
+        <a className="btn">Register</a>
       </div>
     </div>
   );
