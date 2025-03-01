@@ -4,7 +4,7 @@ const HomeSlider = () => {
   // Background image URLs for each slide
   const slideImages = [
     "https://cdn.pixabay.com/photo/2022/08/24/15/42/library-7408106_1280.jpg",
-    "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    "https://cdn.pixabay.com/photo/2015/10/22/17/28/stack-of-books-1001655_1280.jpg",
     "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   ];

@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <div className="text-center bg-gray-900 text-white pt-10 pb-10 mt-10">
         <div>
-          <p className="text-xl text-[#e6005c] flex items-center font-bold italic w-fit mx-auto mb-2">
-            <span className="text-4xl">Libra Assistance</span>
+          <p className="text-xl text-yellow-500 flex items-center font-bold italic w-fit mx-auto mb-2">
+            <span className="text-4xl">Libra Assist</span>
           </p>
   
           <p className="text-gray-500">

@@ -55,7 +55,7 @@ const Nav = () => {
           className="text-lg 
          flex items-center font-bold italic w-fit mx-auto mb-2"
         >
-          <span className="text-3xl">Libra Assistance</span>
+          <span className="text-3xl">Libra Assist</span>
         </p>
       </div>
 
